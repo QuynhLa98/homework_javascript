@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>DOM HOMEWORK</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- Style -->  
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <!-- Máy tính tiền lương -->
+            <div class="card col-2 bai1">
+                <div class="card-header">
+                    <h4>Tính tiền lương nhân viên</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lương</h5>
+                    <input id="moneyDay" type="number" placeholder="Nhập số lương 1 ngày">
+                    <h5 class="card-text mt-3">Số ngày làm việc</h5>
+                    <input id="workingDay" type="number" placeholder="Nhập số ngày làm việc">
+                </div>
+                <button id="total" class="btn btn-success">Tính lương</button>
+                <div class="card-footer text-muted">
+                    <h3 id="result"></h3>
+                </div>
+            </div>
+    <!-- //Máy tính tiền lương -->
+    
+    <!-- Tính giá trị trung bình -->
+        <div class="card col-2 bai2">
+            <div class="card-header">
+                <h4>Tính giá trị trung bình</h4>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Số thứ 1</h5>
+                <input id="number1" type="number" placeholder="Nhập số thứ 1">
+                <h5 class="card-text mt-3">Số thứ 2</h5>
+                <input id="number2" type="number" placeholder="Nhập số thứ 2">
+                <h5 class="card-text mt-3">Số thứ 3</h5>
+                <input id="number3" type="number" placeholder="Nhập số thứ 3">
+                <h5 class="card-text mt-3">Số thứ 4</h5>
+                <input id="number4" type="number" placeholder="Nhập số thứ 4">
+                <h5 class="card-text mt-3">Số thứ 5</h5>
+                <input id="number5" type="number" placeholder="Nhập số thứ 5">
+            </div>
+            <button id="numberAll" class="btn btn-success">Tính trung bình</button>
+            <div class="card-footer text-muted">
+                <h3 id="average"></h3>
+            </div>
+        </div>
+    <!-- //Tính giá trị trung bình -->
+
+    <!-- Quy đổi tiền -->
+    <div class="card col-2 bai3">
+        <div class="card-header">
+            <h4>Quy đổi tiền</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Số tiền USD</h5>
+            <input id="dollar" type="number" placeholder="Nhập số tiền USD">
+        </div>
+        <button id="exchange" class="btn btn-success">Quy đổi tiền</button>
+        <div class="card-footer text-muted">
+            <h3 id="vietnamdong"></h3>
+        </div>
+    </div>
+    <!-- //Quy đổi tiền -->
+
+
+    <!-- Tính diện tích, chu vi hình chữ nhật -->
+    <div class="card col-2 bai4">
+        <div class="card-header">
+            <h4>Tính diện tích, chu vi hình chữ nhật</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Nhập chiều dài</h5>
+            <input id="height" type="number" placeholder="Nhập chiều dài">
+            <h5 class="card-title mt-3">Nhật chiều rộng</h5>
+            <input id="width" type="number" placeholder="Nhập chiều rộng">
+        </div>
+        <button id="tinh" class="btn btn-success">Tính</button>
+        <div class="card-footer text-muted">
+            <h3 id="answer"></h3>
+        </div>
+    </div>
+    <!-- //Tính diện tích, chu vi hình chữ nhật -->
+
+
+    <!-- Tính tổng 2 ký số -->
+    <div class="card col-2 bai5">
+        <div class="card-header">
+            <h4>Tính tổng 2 ký số</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Nhập số có 2 chữ số</h5> 
+            <input id="twoNumber" type="number" placeholder="Nhập số có 2 chữ số">
+        </div>
+        <button id="totalALl" class="btn btn-success">Tính tổng</button>
+        <div class="card-footer text-muted">
+            <h3 id="totalNumber"></h3>
+        </div>
+    </div>
+    <!-- //Tính tổng 2 ký số -->
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <script src="./main.js"></script>
+  </script>
+</body>
+
+</html>
